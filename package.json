@@ -1,0 +1,23 @@
+{
+  "name": "webtuto",
+  "version": "1.0.0",
+  "description": "description api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mariadb": "^3.2.2",
+    "sequelize": "^6.35.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.2"
+  }
+}
